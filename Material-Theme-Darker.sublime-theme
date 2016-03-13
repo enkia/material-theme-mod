@@ -1,0 +1,135 @@
+  [
+    {
+      "class": "sidebar_container",
+      "settings": ["material_theme_contrast_mode"],
+      "layer0.tint": [14, 15, 21]
+    },
+    {
+      "class": "tree_row",
+      //"layer0.tint": [45, 52, 74], // dark denim
+      // "layer0.tint": [34, 25, 34], // maroon
+      //"layer0.tint": [20, 25, 31], // navy
+      "layer0.tint": [55, 43, 62], // purple - Lavender
+      //"layer0.tint": [27, 27, 36], // slate purple - Herouku
+    },
+      {
+      "class": "sidebar_tree",
+      "settings": ["material_theme_contrast_mode"],
+      //"layer0.tint": [25, 27, 35] // dark denim
+      //"layer0.tint": [27, 20, 27] // maroon
+      //"layer0.tint": [14, 16, 34] // navy
+      "layer0.tint": [33, 27, 37] // purple - Lavender
+      //"layer0.tint": [21, 21, 28] // slate purple - Heroku
+    },
+    {
+      "class": "sidebar_label",
+      "color": [75, 79, 103],
+    },
+    {
+      "class": "sidebar_label",
+      "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+      "color": [175, 189, 196]
+    },
+    {
+      "class": "sidebar_label",
+      "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+      "color": [255, 255, 255]
+    },
+    // Status Bar
+    {
+      "class": "status_bar",
+      "settings": ["material_theme_contrast_mode"],
+      "layer0.tint": [32, 34, 44],
+      "layer1.tint": [32, 34, 44] // slate
+    },
+     {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [69, 71, 81, 200],
+        "font.bold": false
+    },
+    {
+      "class": "status_button",
+      "layer0.tint": [32, 34, 44], //slate
+    },
+
+    // Panel
+    {
+      "class": "panel_control",
+      "layer0.tint": [32, 34, 44], // slate
+      "layer1.tint": [32, 34, 44],
+    },
+    {
+      "class": "text_line_control",
+      "layer0.texture": "Material Theme-mod/assets/slate/input_field_border.png", // slate
+    },
+    {
+      "class": "text_line_control",
+      "parents": [{"class": "overlay_control"}],
+      "layer0.texture": "Material Theme-mod/assets/slate/input_field_border--short.png",
+    },
+    {
+      "class": "overlay_control",
+      "layer0.texture": "Material Theme-mod/assets/slate/overlay-bg.png", // slate
+    },
+    {
+     "class": "mini_quick_panel_row",
+      "layer0.tint": [32, 34, 44], //slate
+    },
+    {
+      "class": "mini_quick_panel_row",
+      "attributes": ["selected"],
+      "layer0.tint": [56, 59, 77]
+    },
+    {
+      "class": "quick_panel",
+      "layer0.tint": [32, 34, 44], // slate
+    },
+    {
+      "class": "quick_panel_row",
+      "attributes": ["selected"],
+      "layer0.tint": [56, 59, 77], //slate
+    },
+    {
+      "class": "panel_button_control",
+      "layer0.texture": "Material Theme-mod/assets/slate/overflow_menu.png",
+       "layer0.opacity": 0.6,
+    },
+
+    // Icons
+    {
+      "class": "dropdown_button_control",
+      "layer0.texture": "Material Theme-mod/assets/slate/overflow_menu.png",
+      "layer0.opacity": 0.6,
+    },
+    {
+      "class": "icon_highlight",
+      "layer1.texture": "Material Theme-mod/assets/slate/find_highlight.png",
+    },
+    {
+      "class": "icon_in_selection",
+      "layer1.texture": "Material Theme-mod/assets/slate/find_inselection.png",
+    },
+    {
+      "class": "icon_regex",
+      "layer1.texture": "Material Theme-mod/assets/slate/find_regex.png",
+    },
+
+    {
+      "class": "icon_whole_word",
+      "layer1.texture": "Material Theme-mod/assets/slate/find_word.png",
+    },
+
+    {
+      "class": "icon_case",
+      "layer1.texture": "Material Theme-mod/assets/slate/find_case.png",
+    },
+    {
+      "class": "icon_preserve_case",
+      "layer1.texture": "Material Theme-mod/assets/slate/replace_preserve_case.png",
+    },
+    {
+      "class": "icon_folder",
+      "layer1.texture": "Material Theme-mod/assets/slate/folder.png",
+    },
+  ]
